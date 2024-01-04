@@ -33,7 +33,7 @@ async function getAllWorkshops() {
   if ((response.status = "success")) {
     // extract the data from the returned response object
     const contentsArray = response.data;
-    console.log(contentsArray);
+    // console.log(contentsArray);
     // for each element in the array, add the object details to the DOM
 
     let holdWeekname = "";
