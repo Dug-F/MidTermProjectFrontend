@@ -32,9 +32,16 @@ Because the app uses links that are personal to individual bootcampers, some of 
 
 **Client:** Javascript, HTML, CSS, Playwright
 
-**Server:** JavaScript, NodeJS, Express, SuperTest, Vitest, PostgreSql
+**Server:** JavaScript, NodeJS, Express, SuperTest, Vitest, PostgreSQL
 
 <h2>Authors</h2>
+
+- [Doug Forbes](https://github.com/Dug-F)
+- [Spencer Ley](https://github.com/Spencerley)
+- [Hannah McCabe](https://github.com/HannahMcCabe31)
+- [Mahad Mohamed](https://github.com/MahadMohamed2)
+- [Sam German](https://github.com/sam1234g)
+- [Ameeenah Jalil](https://github.com/AmeenahJalil)
 
 <h2>How To Run Locally</h2>
 
