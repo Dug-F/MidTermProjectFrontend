@@ -1,5 +1,7 @@
 <h1>Bootcamp Resources Mid-Term Project by Async Avatars</h1>
 
+This is the front end repo of a full stack bootcamp resources app.
+
 <h2>Problem</h2>
 
 The brief for the mid-term project was to produce an app that could help fellow bootcampers.  We were divided into teams of 6 with people with whom we had (mostly) not previously worked.  We became team Async Avatars.  
@@ -9,7 +11,7 @@ The School of Code bootcamp is extremely intense and presents bootcampers with a
 The entire project took place over the course of 5 days, roughly divided into :
 - problem definition, user research, ideation, UI/UX design, wireframing, creating user personas and user stories over 2 days
 - coding over 2 days
-- finalising code and preparing/delivering a 10 minute presentation video.
+- finalising code, making a 10 minute video and presenting to a panel of judges.
 
 This was an extremely tight timescale.
 
