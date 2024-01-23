@@ -1,4 +1,4 @@
-<h1>Botcamp Resources Mid-Term Project by Async Avatars</h1>
+<h1>Bootcamp Resources Mid-Term Project by Async Avatars</h1>
 
 <h2>Overview</h2>
 
