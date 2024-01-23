@@ -1,4 +1,6 @@
-const params = new URLSearchParams(document.location.search);
+const backendUrl = "https://week8midtermprojectbackend.onrender.com/workshops/";
+
+const params = new URLSearchParams(document.location.search); 
 const workshopID = params.get("id");
 
 const descriptionWrapper = document.querySelector(".description");
@@ -10,7 +12,7 @@ const commentsWrapper = document.querySelector(".comments");
  */
 async function getWorkshop() {
   // send fetch get request the workshop endpoint
-  const response = await sendFetchRequest("GET", `https://week8midtermprojectbackend.onrender.com/workshops/${workshopID}`);
+  const response = await sendFetchRequest("GET", `${backendUrl}${workshopID}`);
   // if the request wasn't successful
   if (response.status !== "success") {
     console.log("error loading workshop");
@@ -18,7 +20,7 @@ async function getWorkshop() {
   }
   const workshopObject = response.data;
   addWorkshopDetails(workshopObject);
-  const bookmarksResponse = await sendFetchRequest("GET", `https://week8midtermprojectbackend.onrender.com/workshops/${workshopID}/bookmarks`);
+  const bookmarksResponse = await sendFetchRequest("GET", `${backendUrl}${workshopID}/bookmarks`);
   if (response.status !== "success") {
     console.log("error loading bookmarks");
     return;
@@ -27,7 +29,7 @@ async function getWorkshop() {
   bookmarksArray.forEach((bookmark) => {
     addWorkshopBookmarks(bookmark);
   });
-  const commentsResponse = await sendFetchRequest("GET", `https://week8midtermprojectbackend.onrender.com/workshops/${workshopID}/comments`);
+  const commentsResponse = await sendFetchRequest("GET", `{$backendUrl}${workshopID}/comments`);
   if (response.status !== "success") {
     console.log("error loading comments");
     return;
@@ -80,7 +82,7 @@ async function postNewComment() {
   const bodyObject = {
     comment: comment,
   };
-  const commentsResponse = await sendFetchRequest("POST", `https://week8midtermprojectbackend.onrender.com/workshops/${workshopID}/comments`, bodyObject);
+  const commentsResponse = await sendFetchRequest("POST", `${backendUrl}${workshopID}/comments`, bodyObject);
   if (commentsResponse.status !== "success") {
     console.log("error posting comments");
     return;

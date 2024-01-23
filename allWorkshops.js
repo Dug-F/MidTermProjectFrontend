@@ -1,3 +1,5 @@
+const backendUrl = "https://week8midtermprojectbackend.onrender.com/workshops";
+
 const weeksWrapper = document.querySelector(".wrapper");
 const dropdownContainer = document.querySelector(".dropdown-content");
 // const workshopDetailUrl = "http://127.0.0.1:5500/workshops.html";
@@ -28,7 +30,7 @@ console.log("pathname", window.location.pathname);
  */
 async function getAllWorkshops() {
   // send fetch get request to all workshops endpoint
-  const response = await sendFetchRequest("GET", "https://week8midtermprojectbackend.onrender.com/workshops");
+  const response = await sendFetchRequest("GET", backendUrl);
   // if the request was successful
   if ((response.status = "success")) {
     // extract the data from the returned response object
