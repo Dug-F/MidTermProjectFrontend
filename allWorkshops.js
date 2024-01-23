@@ -1,7 +1,7 @@
 // use this backendUrl for live running
-//const backendUrl = "https://week8midtermprojectbackend.onrender.com/workshops";
+const backendUrl = "https://week8midtermprojectbackend.onrender.com/workshops";
 // use this backendUrl for running locally - remember to change it back again before pushing to remote repo
-const backendUrl = "http://127.0.0.1:3000/workshops/";
+//const backendUrl = "http://127.0.0.1:3000/workshops/";
 
 const weeksWrapper = document.querySelector(".wrapper");
 const dropdownContainer = document.querySelector(".dropdown-content");
