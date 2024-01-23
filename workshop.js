@@ -29,7 +29,7 @@ async function getWorkshop() {
   bookmarksArray.forEach((bookmark) => {
     addWorkshopBookmarks(bookmark);
   });
-  const commentsResponse = await sendFetchRequest("GET", `{$backendUrl}${workshopID}/comments`);
+  const commentsResponse = await sendFetchRequest("GET", `${backendUrl}${workshopID}/comments`);
   if (response.status !== "success") {
     console.log("error loading comments");
     return;
