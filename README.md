@@ -55,6 +55,31 @@ Above all, we learned how to function as a high-performance team under significa
 
 **Server:** JavaScript, NodeJS, Express, PostgreSQL, SuperTest, Vitest
 
+<h2>How to run locally</h2>
+
+Clone the project
+
+```bash
+  git clone https://github.com/Dug-F/MidTermProjectFrontend.git
+```
+
+Go to the project directory
+
+```bash
+  cd MidTermProjectFrontend
+```
+
+Create the backend repository and start the server [see instructions in backend repo](https://github.com/Dug-F/MidTermProjectBackend)
+
+Start the server [see instructions in backend repo](https://github.com/Dug-F/MidTermProjectBackend)
+
+Change the frontend to point at the local backend
+- change the backendUrl value at the top of workshops.js and allWorkshops.js to point to the local (127.0.0.1) backend
+- (remember to change it back again before pushing to live server)
+
+Start the frontend
+- start index.html using a server such as Live Server in VS Code
+  
 <h2>Authors</h2>
 
 - [Doug Forbes](https://github.com/Dug-F)
