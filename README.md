@@ -90,7 +90,6 @@ Start the frontend
 - [Sam German](https://github.com/sam1234g)
 - [Ameenah Jalil](https://github.com/AmeenahJalil)
 
-<h2>How To Run Locally</h2>
 
 
 
