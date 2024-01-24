@@ -69,7 +69,7 @@ Go to the project directory
   cd MidTermProjectFrontend
 ```
 
-Create the backend repository and start the server [see instructions in backend repo](https://github.com/Dug-F/MidTermProjectBackend)
+Create the backend app and start the server [see instructions in backend repo](https://github.com/Dug-F/MidTermProjectBackend)
 
 Start the server [see instructions in backend repo](https://github.com/Dug-F/MidTermProjectBackend)
 
